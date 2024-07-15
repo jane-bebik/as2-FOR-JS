@@ -1,18 +1,17 @@
-## Getting Started
+How it works
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+	app.js:  This is the main file that starts everything.
 
-## Folder Structure
+	utilities.js: This file is like a toolbox; it has various tools (functions) that app.js uses.
 
-The workspace contains two folders by default, where:
+  
+	utilities.js
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+First function: Merges a first name and a last name into a welcoming message
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Second function: turns a temperature from Celsius to Fahrenheit.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Third function: Calculates how many ways you can arrange a number of items.
 
-## Dependency Management
+Forth function: This function retrieves the current date and prints the day of the week in a human-readable format. Like today is monday!
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
